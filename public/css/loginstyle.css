@@ -1,0 +1,48 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+@media (min-width: 560px) and (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view  {
+    height: 650px;
+  }
+}
+body {
+  background-color: #eee;
+}
+.login-page .md-form .form-control, .login-page .md-form label
+{
+  color: black;
+}
+.navbar
+{
+  padding-bottom:0px;
+  background-color:#FFFFFF !important;
+  height:10%;
+}
+.card{
+  background-color:#fff !important;
+  margin-top:40px;
+}
+.card-body .form-header
+{
+  margin-bottom:80px;
+}
+
+.navbar .container img
+{
+  margin:0 auto;margin-bottom:10px;width:120px;
+}

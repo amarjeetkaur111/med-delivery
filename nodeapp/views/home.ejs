@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    Driver ID:- <input type="text" class="driver_id" value="17"><br><br>
+    <input type="text" class="lat" value="51.075072">
+    <input type="text" class="lag" value="-114.145565"><br><br>
+    <input type="text" class="lat" value="51.074743">
+    <input type="text" class="lag" value="-114.145242"><br><br>
+    <input type="text" class="lat" value="51.074110">
+    <input type="text" class="lag" value="-114.144665"><br><br>
+    <input type="text" class="lat" value="51.074034">
+    <input type="text" class="lag" value="-114.144100"><br><br>
+    <button onclick="sendMessage()">Send LatLag</button>
+    <h1></h1>
+    <script>
+        function sleep(miliseconds) {
+            var currentTime = new Date().getTime();
+            while (currentTime + miliseconds >= new Date().getTime()) {}
+        }
+        const SOCKET_URL = 'http://localhost';
+        const PORT = 8080;
+
+        const socket = io(SOCKET_URL + ":" + PORT);
+        socket.on('connection');
+        // socket.on('message', (data) => {
+        //     document.querySelector('h1').innerHTML = data;
+        // });
+
+        const sendMessage = () => {
+            const driver_id = document.querySelector('.driver_id');
+            const lat = $('.lat');
+            const lag = $('.lag');
+            for (var i = 0; i < lat.length; i++) {
+                const data = {
+                    "RouteId": 49,
+                    "UserId": driver_id.value,
+                    "lat": $(lat[i]).val(),
+                    "lng": $(lag[i]).val()
+                }
+                console.log(data);
+                sleep(1000);
+                console.log("data=>", data);
+                socket.emit('join_map', data)
+            }
+
+        }
+        const sendDummy = () => {
+            var datas = [{
+                "RouteId": 49,
+                "UserId": 4,
+                "lat": 51.133712,
+                "lng": -114.000461
+            }, {
+                "RouteId": 49,
+                "UserId": 4,
+                "lat": 51.135180,
+                "lng": -114.000505
+            }, {
+                "RouteId": 49,
+                "UserId": 4,
+                "lat": 51.136662,
+                "lng": -113.999689
+            }, {
+                "RouteId": 49,
+                "UserId": 4,
+                "lat": 51.138740,
+                "lng": -113.999534
+            }];
+            var datas_1 = [{
+                RouteId: 49,
+                UserId: "17",
+                lat: "51.075072",
+                lng: "-114.145565"
+            }, {
+                RouteId: 49,
+                UserId: "17",
+                lat: "51.074743",
+                lng: "-114.145242"
+            }, {
+                RouteId: 49,
+                UserId: "17",
+                lat: "51.074110",
+                lng: "-114.144665"
+            }, {
+                RouteId: 49,
+                UserId: "17",
+                lat: "51.074034",
+                lng: "-114.144100"
+            }];
+            for (var i = 0; i < datas.length; i++) {
+                const data = datas[i]
+                console.log(data);
+                sleep(1000);
+                console.log("data=>", data);
+                socket.emit('join_map', data)
+                socket.emit('join_map', datas_1[i])
+            }
+        }
+    </script>
+</body>
+
+</html>

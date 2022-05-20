@@ -1,0 +1,691 @@
+/* Your custom styles */
+.multiselect-container .multiselect-all .form-check, .multiselect-container .multiselect-group .form-check, .multiselect-container .multiselect-option .form-check 
+{
+	padding: 0 20px 0 0px !important;
+}
+
+.select-wrapper input.select-dropdown {
+	height: 30px !important;
+}
+
+.caret{
+	display: none;
+}
+
+#select-options-existing_customer{
+	left: 0px !important;
+	top: 1px !important;
+}
+
+header .nav 
+{
+    margin: auto;
+}
+
+@media (min-width: 760px)
+{
+	.double-nav .button-collapse 
+	{
+	    display: block !important;
+	}
+}
+
+@media only screen and (min-width: 1448px)
+{
+	.double.nav{
+	    padding-left: 	20rem;
+	}
+	.fixed-sn main
+	{
+		padding-left: 	0rem;
+	}
+}
+
+
+@media only screen and (max-width: 1990px)
+{
+	.side-nav.fixed {
+	    transform: translateX(-100%);
+	}
+}
+.double-nav .button-collapse 
+{
+    position: absolute;
+    left: 5rem;
+    top: 20px;
+    font-size: 1.5rem;
+}
+
+.double-nav a {
+    color: #666 !important;
+}
+
+.redcolor{
+	color: red;
+}
+
+.error{
+	color: red;
+	font-weight:bold;
+}
+
+.cont-margin{
+	margin-top: -3rem !important;
+}
+
+.form-check-input[type=checkbox].filled-in:checked+label:after, label.btn input[type=checkbox].filled-in:checked+label:after
+{
+	background-color: #4285f4 !important;
+   border: 2px solid #4285f4 !important;
+}
+
+.nam
+{
+	 font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 1;
+}
+/*<+++++++++++++++++ Login Page +++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Login Page Ends +++++++++++++++++++=>*/
+
+/*<+++++++++++ Header Part +++++++++++++++++++=>*/
+
+nav{
+	background-color:#FFFFFF;
+}
+
+.navbar	.nav-item img
+{
+	padding-right: 1em;padding-left:1rem; margin-top : -20px;width:105px;
+}
+
+.navbar .navy-blue-skin .side-nav {
+	background-color: #4c5678;
+}
+.navbar .nav-bar{
+	width:150px;
+}
+.navbar .md-pills .nav-link.active{
+	background-color:#007bff;
+}
+/*@media (min-width: 1200px){
+	.navbar .fixed-sn .page-footer .container-fluid, .fixed-sn main {
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+}*/
+.navbar .nav-item .nav-link .fa-user, .nav-item .nav-link .profile
+{
+	color:black;
+}
+.md-pills .nav-link.active, .md-pills .show>.nav-link {
+    background-color: #4285f4 !important;
+}
+
+.alert-messages
+{
+	margin-top: 6rem;margin-left: 7.5rem;margin-right: 7.5rem; margin-bottom: -5rem;
+}
+.alert-messages .alert
+{
+	font-weight: bold;
+}
+
+/*<+++++++++++ Header Part Ends+++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Side Part +++++++++++++++++++=>*/
+
+.custom-scrollbar li form .md-form
+{
+	padding: 10px;
+}
+
+.custom-scrollbar li form input
+{
+	text-align:center;
+}
+
+.custom-scrollbar .flex-class
+{
+	display:flex;
+}
+
+.custom-scrollbar .flex-class a
+{
+	padding-left:0px;
+}
+
+	#slide-out .side-nav .collapsible-body a{padding-left: 20px;}
+	#slide-out .side-nav{width: 15rem;}
+	#slide-out #sidebar_customer_autocomplete{color: white; background: transparent;font-size: 14px;}
+	#slide-out .statuslist { margin-left: 1px !important; }
+	#slide-out .statuslist .col-sm-6 { margin-right: -20px !important; }
+	#slide-out .statuslist .btn { font-size: 11px;
+    padding: 0.5rem 0.3rem;
+    width: 6rem;
+    border-radius: 4px;
+    background: rgba(6,138,255,0.4) !important; }
+    #slide-out .statuslist .btn-group{display: block;}
+  #slide-out .neworderbtn { border-radius: 5px;padding: 0.5rem 2.4rem !important;}
+  #slide-out .statusbtn:not([disabled]):not(.disabled).active{background-color: #6891d5!important;}
+    /*.typeahead .form-control .ui-autocomplete{z-index: 999999 !important;}*/
+ .ui-autocomplete{z-index: 999999 !important;font-size: 13px !important;font-family: Roboto,sans-serif !important; color: #2bbbad !important;}
+  #slide-out .newordera{padding-left:0 !important;}
+  #slide-out .countspan{background: #fff;
+    padding: 3px;
+    color: black;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+/*<+++++++++++++++++ Side Part Ends +++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Customer Blade +++++++++++++++++++=>*/
+
+.customer-list .heading
+{
+	margin-bottom:15px;
+}
+
+#customer_table thead th
+{
+	font-weight:bold;
+}
+.activate{color:  green;}
+.deactivate{color:  grey;}
+/*<+++++++++++++++++ Customer Blade Ends +++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Add Customer Blade +++++++++++++++++++=>*/
+
+.add-customer .card-body
+{
+	padding-left:6rem;
+	padding-top:0.9rem;
+}
+
+.add-customer .md-form, .edit-customer #customerinfo .md-form{margin-top:0.9rem;margin-bottom: 0.9rem;}
+
+.add-customer  #existing_customer_div
+{
+	display:none;
+}
+.add-customer  #existing_customer_div select
+{
+	margin-left:25px;
+	width:95%;
+	line-height: 1.5;
+	border-radius: .2rem;
+	height: calc(1.5em + .5rem + 2px);
+	margin-bottom: 2rem;
+}
+
+.add-customer .row .fa-phone-alt
+{
+	margin-left: -10px;
+}
+
+.add-customer .row .phonetype-select
+{
+	margin-left:25px;
+	width:95%;
+	line-height: 1.5;
+	border-radius: .2rem;
+	height: calc(1.5em + .5rem + 2px);
+}
+.add-customer .new-phone
+{
+	padding-left: 32px;
+}
+.add-customer #multiple_phone_title"
+{
+	display:none;
+}
+.add-customer #locationField
+{
+	position:relative;
+}
+
+.add-customer .error-p
+{
+	position:absolute;
+	top:70px;
+}
+.add-customer #locationField label
+{
+	top: -17px;
+	left: -58px;
+	padding-right: 5px; 
+	padding-left: 70px; 
+	font-size: 13px; 
+	font-weight: 500; 
+	background: #fff !important;
+}
+.add-customer #locationField #address1
+{
+	width:360px;
+	height: 37px;
+}
+.add-customer #locationField #autocomplete
+{
+	position:absolute;
+	top:0;left:0;
+	width:100%
+}
+.add-customer .address-phone select
+{
+	line-height: 1.5;
+	border-radius: .2rem;
+	height: calc(1.9em + .5rem + 2px);
+}
+
+/*<+++++++++++++++++ Add Customer Blade Ends+++++++++++++++++++=>*/
+/*<+++++++++++++++++ Edit Customer Blade +++++++++++++++++++=>*/
+
+.edit-customer .card-body
+{
+	padding-left:6rem;
+}
+.edit-customer .row .fa-phone-alt
+{
+	margin-left: -10px;
+}
+.edit-customer .row .phonetype-select
+{
+	margin-left:25px;
+	width:95%;
+	line-height: 1.5;
+	border-radius: .2rem;
+	height: calc(1.5rem + .5rem + 2px);
+}
+.edit-customer .new-phone
+{
+	padding-left: 32px;
+}
+.edit-customer .alternative-phone-div .row button
+{
+	margin-top: 2rem;
+}
+.edit-customer .address-phone select
+{
+	line-height: 1.5;
+	border-radius: .2rem;
+	height: calc(1.9rem + .5rem + 2px);
+}
+.edit-customer #myTab
+{
+	margin: -10px 30px;
+	background-color: #fff;
+}
+.edit-customer .labels
+{
+	font-weight: 500;
+}
+
+.edit-customer .data-label
+{
+	font-weight: 300;
+}
+.edit-customer .new-add-input
+{
+	height: calc(1rem + 0.75rem + 2px) !important;
+	width: 25rem !important;
+}
+.edit-customer #add_new_address .row, .edit-customer .edit_address_modal .row
+{
+	margin-bottom: 10px;
+}
+.edit-customer .custom-checkbox
+{
+	pointer-events: all;
+    opacity: 1;
+    position: unset;
+    transform: scale(2);
+    margin-right: 10px;
+    width: 30px;
+}
+
+.edit-customer #sticky {
+  padding: 0.2ex;
+  /*width: 100%;*/
+  background-color: #fff;
+  color: #333;
+  font-size: 2em;
+  border-radius: 0.5ex;
+  margin-bottom: -1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.edit-customer #sticky.stick {
+  position: fixed;
+  top: 5rem;
+  z-index: 10000;
+  border-radius: 0 0 0.5em 0.5em;
+  background-color: transparent;
+}
+
+.edit-customer .chip {
+    font-size: 15px;
+    color: #fff;
+    cursor: auto;
+    padding: 0 25px;
+  }
+.edit-customer .fa-male:before 
+{
+	font-size: 15px;
+	padding-right: 8px;
+}
+
+/*<+++++++++++++++++ Edit Customer Blade +++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Orders Blade +++++++++++++++++++=>*/
+
+.order-list .head
+{
+	margin-bottom:15px;
+}
+.order-list .fa-eye, .order-list .fa-edit, .order-list .fa-trash-alt{
+	padding-left:5px;
+	padding-right:5px;
+}
+.order-list	.table thead th{
+	font-weight:bold;
+}
+.order-list .table .badge{padding: 0.4rem 0.4rem !important;}
+.batched-orders #batched_table [data-title]:hover:after, .order-list [data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+.batched-orders #batched_table [data-title]:after, .order-list [data-title]:after {
+    content: attr(data-title);
+    position: absolute;
+    bottom: -2.2em;
+    left: 11px;
+    padding: 4px 4px 4px 8px;
+    color: #222;
+    white-space: nowrap; 
+	font-family: Roboto,sans-serif;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;  
+    border-radius: 5px;  
+    -moz-box-shadow: 0px 0px 4px #222;  
+    -webkit-box-shadow: 0px 0px 4px #222;  
+    box-shadow: 0px 0px 4px #222;  
+    background-image: -moz-linear-gradient(top, #f8f8f8, #cccccc);  
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f8f8f8),color-stop(1, #cccccc));
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #cccccc);  
+    background-image: -moz-linear-gradient(top, #f8f8f8, #cccccc);  
+    background-image: -ms-linear-gradient(top, #f8f8f8, #cccccc);  
+    background-image: -o-linear-gradient(top, #f8f8f8, #cccccc);
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+}
+.batched-orders #batched_table [data-title], .order-list [data-title] {
+    position: relative;
+	cursor: default;
+}
+
+/*<+++++++++++++++++ Orders Blade Ends+++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Add Orders Blade +++++++++++++++++++=>*/
+
+.add-order .p_bold{
+	font-weight:500;
+}
+.add-order .card-body
+{
+	padding-left:6rem;
+}
+.add-order .start-time select, .add-order .end-time select, .add-order .duration select
+{
+	width:95%;
+	line-height: 1.5;
+	border-radius: .2rem;
+	height: calc(2em + .5rem + 2px);
+}
+.add-order .tags
+{
+	border-radius:1px;
+	border-right:1px solid grey;
+}
+
+/*<+++++++++++++++++ Add Orders Blade Ends+++++++++++++++++++=>*/
+/*<+++++++++++++++++ Edit Orders Blade Ends+++++++++++++++++++=>*/
+.edit-order
+{
+	margin-left: 0 !important;
+}
+
+/*<+++++++++++++++++ Edit Orders Blade Ends+++++++++++++++++++=>*/
+/*<+++++++++++++++++ Add Schedule Blade +++++++++++++++++++=>*/
+.add-schedule
+{
+	/*margin-left: 5rem;*/
+}
+.add-schedule .badge{
+	margin: 0.175rem;
+	padding: 0.8rem 1.4rem;
+	border-radius: 5px;
+}
+.add-schedule .card-body
+{
+	padding-left: 6rem;
+}
+
+.add-schedule .tags .badge:not([disabled]):not(.disabled).active, .badge:not([disabled]):not(.disabled):active, .show > .badge.dropdown-toggle
+{
+	border: 3px solid rgb(11, 81, 197);
+	border-radius: 5px;
+}
+
+.datepicker-dropdown
+{
+	padding: 0.5rem 0.5rem;
+	cursor: pointer;
+}
+.datepicker-dropdown .datepicker-days .table-condensed td
+{
+	padding: 6px;
+}
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled
+{
+   background-image: linear-gradient(to bottom,#08c,#04c);
+   color: white;
+   text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+   border-radius: 5px;
+}
+
+
+/*<+++++++++++++++++ Add Schedule Blade Ends+++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Batched Orders Blade +++++++++++++++++++=>*/
+
+.batched-orders .fa-eye{
+	padding-left:15px;
+	padding-right:15px;
+}
+.batched-orders .table thead th{
+	font-weight:bold;
+}
+.batched-orders .md-form{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.batched-orders .batched_row{
+	background-color:#4285f4;
+}
+.batched-orders .text-color{
+	color:white;
+}
+.batched-orders .fa-eye{
+	padding-left:15px;
+	padding-right:15px;
+}
+.batched-orders .table thead th{
+	font-weight:bold;
+}
+.batched-orders input[type=checkbox].filled-in:not(:disabled)+label:after
+{
+	background-color: white;
+}
+/*<+++++++++++++++++ Batched Orders Blade Ends+++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Send To Delivery Blade +++++++++++++++++++=>*/
+
+.delivered-batches .fa-eye{
+	padding-left:15px;
+	padding-right:15px;
+}
+.delivered-batches .table thead th{
+	font-weight:bold;
+}
+
+.delivered-batches .batched_row 
+{
+	color: #4285f4!important;
+    font-size: medium;
+}
+
+/*<+++++++++++++++++ Send To Delivery Blade Ends+++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Assign To Driver Blade +++++++++++++++++++=>*/
+
+.assign-to-driver .barcode-img img{
+	padding-left:70px;
+}
+
+/*<+++++++++++++++++ Assign To Driver Blade Ends+++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Reports Blade +++++++++++++++++++=>*/
+
+.reports{
+	margin-left: 1% !important;
+	margin-right: 1% !important;
+}
+.reports .item #dates
+{
+	width: 10rem;
+	font-size: 13px;
+	height: 30px;
+}
+.reports .table thead th{
+	font-weight:bold;
+}
+.reports .customer-name input
+{
+	height:33px;
+	margin-top:-2px;
+}
+
+/*<+++++++++++++++++ Reports Blade Ends +++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Add Medication Blade +++++++++++++++++++=>*/
+
+.add_medications .medicationtype-select
+{
+	width: 100%;
+    line-height: 1.5;
+    border-radius: .2rem;
+    height: calc(1.8em + .5rem + 2px)
+}
+/*<+++++++++++++++++ Add Medication Blade Ends +++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ Tags Blade +++++++++++++++++++=>*/
+.tags .modal .modal-body .color-input
+{
+	height: 3rem;
+	width:6rem;
+}
+/*<+++++++++++++++++ Tags Blade Ends +++++++++++++++++++=>*/
+
+/*<+++++++++++++++++ User Blade +++++++++++++++++++=>*/
+.user-list #myTab
+{
+	background-color: white;
+    margin: -15px 15px;
+}
+.user-list #myTab .active,.edit-customer #myTab .active 
+{
+	background-color: #4285f4;
+	color:white;
+	background-color: rgba(0,0,0,.2);
+    border-radius: .25rem;
+}
+
+/*<+++++++++++++++++ User Blade Ends+++++++++++++++++++=>*/
+
+/*!+++++++++++++++++++ Map Blade ++++++++++++++++++++++++++>*/
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:500px;
+margin-top: 9rem;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+border:0
+}
+
+/*!+++++++++++++=======Map Blade Ends ++++++++++++++++++++++++++++*/
+/*!+++++++++++++=======Mobile Invoice Blade ++++++++++++++++++++++++++++*/
+
+.mobile-invoice {font-size: 8px; font-family: SourceSansPro; color: #777777;}
+.mobile-invoice .card-header img{margin-left: 20px;margin-top: 7px;width: 5rem;}
+.mobile-invoice .card-header{background: #007bff;}
+.mobile-invoice .header-detail{color: white;}
+.mobile-invoice .name{font-weight: 700;}
+.mobile-invoice .header-detail h2 {margin-bottom: 10px;font-size: 0.7rem;font-weight: 600;}
+.mobile-invoice h5 {font-size: 0.4rem !important}
+.mobile-invoice h4 {font-size: 0.5rem !important;}
+.mobile-invoice .address {overflow-wrap: break-word;}
+.mobile-invoice .header-detail .due-date {margin-bottom: 10px;}
+.mobile-invoice .client-details .client{padding-left: 6px; border-left: 6px solid #0087C3; float: left;}
+.mobile-invoice table {font-size: 0.7rem;}
+.mobile-invoice table th,
+.mobile-invoice table td {
+  padding: 5px;
+  background: #fff;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+}
+.mobile-invoice table th{white-space: nowrap; font-size: 0.5rem; font-weight: normal; background: #c8daed;}
+.mobile-invoice table .no {background: #c8daed;}
+.mobile-invoice table tfoot td {
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border-bottom: none;
+  font-size: 1em;
+  white-space: nowrap;
+  border-top: 1px solid #AAAAAA;
+}
+
+/*!+++++++++++++=======Mobile Invoice Blade Ends++++++++++++++++++++++++++++*/
+/*!+++++++++++++=======Schedule Icon ++++++++++++++++++++++++++++*/
+.tooltip-inner {
+    max-width: 600px !important;
+    text-align:left;
+    font-size:12px;
+  }
+  .outerschedulediv{
+    margin-bottom:10px;
+  }
+  .schedulesdiv{
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .schedulerow{
+    border-top:1px solid #FFFFFF;
+    margin-top:10px;
+  }
+  .status-pill{pointer-events: none;}
+
+/*!+++++++++++++=======Schedule Icon Ends++++++++++++++++++++++++++++*/
